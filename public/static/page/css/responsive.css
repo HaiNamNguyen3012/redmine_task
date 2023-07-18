@@ -1,0 +1,277 @@
+@media (max-width:1440px) {
+
+}
+
+@media (max-width:1366px) {
+
+}
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:1080px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:768px) {
+    header.page nav#wrap-menu-header ul li{margin-left: 0;}
+
+    .footer-padd{padding-left: 0 !important; padding-right: 0 !important;}
+    #plan{padding: 0 20px;}
+
+    .button_register a.btn-register{max-width: 396px; width: 100%;}
+}
+
+@media (max-width:576px) {
+    .title {
+        font-size: 25px;
+        line-height: 36px;
+        margin-bottom: 50px;
+    }
+    #slider .content {
+        position: absolute;
+        top: 60px;
+        left: 12px;
+    }
+    #slider .content .text {
+        font-size: 20px;
+    }
+    #slider .content .link {
+        margin-top: 60px;
+    }
+    #slider .content .link{width: 260px;}
+    #slider .content .link a.btn-red {
+        padding: 11px 20px;
+    }
+    header.page nav#wrap-menu-header ul li a {
+        font-size: 14px;
+        padding: 9px 10px;
+    }
+    header.page nav#wrap-menu-header ul li a {
+        white-space: nowrap;
+    }
+    #func{padding: 30px 0 20px 0;}
+    #func .box .item {
+        display: inherit;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    #func .box .item .info {
+        padding-left: 10px;
+    }
+    #func .box .item .name {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    #func .box .item .info .content {
+        font-size: 14px;
+    }
+    #plan .box .item {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    footer .menu {
+        display: grid;
+    }
+    footer .menu a {
+        padding: 0px 0px;
+        margin-bottom: 20px;
+    }
+    footer .menu a:before {
+        display: none;
+    }
+    .banner-page > img {
+        height: 170px;
+    }
+
+    .button_register-mb{margin-top: 20px;}
+
+    #term-content .table-company table tr td:first-child{padding-left: 20px; width: 130px;}
+    #term-content .table-company table tr td:nth-child(2){word-break: break-all;}
+    .table-company.font-18{font-size: 16px !important;}
+    .col-padd{padding-left: 0 !important; padding-right: 0 !important;}
+    .row{margin-left: 0 !important; margin-right: 0 !important;padding-left: 0 !important; padding-right: 0 !important;}
+
+
+    .icon-bar-menu {
+        display: flex;
+        background: transparent;
+        position: absolute;
+        top: 28px;
+        justify-content: flex-start;
+        align-items: center;
+        right: 20px;
+        z-index: 9999999;
+    }
+    .icon-bar-menu span {
+        width: 20px;
+        height: 3px;
+        background: #24292E;
+        display: block;
+        position: relative;
+        transition: all .4s;
+        border-radius: 4px;
+    }
+    .icon-bar-menu span:before, .icon-bar-menu span:after {
+        content: "";
+        width: 100%;
+        height: 3px;
+        background: #24292E;
+        position: absolute;
+        transition: all .4s;
+        border-radius: 4px;
+    }
+    .icon-bar-menu span:before {
+        top: -7px;
+        width: 20px;
+    }
+    .icon-bar-menu span:after {
+        bottom: -7px;
+    }
+    .icon-bar-menu.active span {
+        background: transparent;
+        z-index: 999;
+    }
+    .icon-bar-menu.active span:before {
+        top: 0;
+        transform: rotate(45deg);
+        background: white;
+    }
+    .icon-bar-menu.active span:after {
+        top: 0;
+        transform: rotate(-45deg);
+        background: white;
+        width: 20px;
+    }
+    nav#wrap-menu-header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100vh;
+        background: var(--color-red);
+        overflow: scroll;
+        padding-bottom: 50px;
+        transform: translateX(-100%);
+        transition: all .4s;
+    }
+    header nav#wrap-menu-header ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    header nav#wrap-menu-header ul li {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    header nav#wrap-menu-header ul li a {
+        color: white!important;
+        box-shadow: none!important;
+    }
+    nav#wrap-menu-header.active {
+        transform: translateX(0);
+        padding-left: 0px;
+        z-index: 999;
+    }
+}
+
+@media (max-width:540px) {
+
+}
+
+@media (max-width:428px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:393px) {
+    .row>*{margin-left: 0 !important; margin-right: 0 !important;padding-left: 0 !important; padding-right: 0 !important;}
+    header.page nav#wrap-menu-header ul li a {
+        padding: 9px 5px;
+    }
+}
+
+@media (max-width:390px) {
+
+}
+
+@media (max-width:375px) {
+    #slider .content .text {
+        font-size: 19px;
+    }
+}
+
+@media (max-width:360px) {
+    .logo-pc{display: none !important;}
+    .logo-mb{display: block !important; height: 40px;}
+
+    #slider .content .text {
+        font-size: 18px;
+    }
+    #slider .content .link {
+        margin-top: 40px;
+    }
+    #slider .content .link {
+        width: 250px;
+    }
+}
+
+@media (max-width:320px) {
+    .logo-pc{display: none !important;}
+    .logo-mb{display: block !important; height: 40px;}
+    header.page nav#wrap-menu-header ul li a {
+        font-size: 14px;
+        padding: 9px 20px;
+    }
+
+    #slider .content .text{font-size: 16px; line-height: 25px;}
+    #slider .content .link {
+        margin-top: 40px;
+    }
+    #slider .content .link {
+        width: 220px;
+    }
+    #slider .content .link a.btn-red {
+        padding: 8px 20px;
+    }
+    #slider .content .link a.btn-red {
+        height: 40px;
+        width: 100%;
+    }
+}
+
+@media (max-width:280px) {
+    .row>*{margin-left: 0 !important; margin-right: 0 !important;padding-left: 0 !important; padding-right: 0 !important;}
+    header.page nav#wrap-menu-header ul li a{padding: 9px 8px;}
+    #slider .content .text{font-size: 14px; line-height: 25px;}
+    #slider .content .link {
+        margin-top: 20px;
+    }
+    #slider .content .link {
+        width: 190px;
+    }
+    #slider .content .link a.btn-red {
+        padding: 8px 20px;
+    }
+    #slider .content .link a.btn-red {
+        height: 40px;
+        width: 100%;
+    }
+}

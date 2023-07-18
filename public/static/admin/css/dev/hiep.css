@@ -1,0 +1,429 @@
+section.wrap-main .fill-box{
+    margin-bottom: 20px;
+}
+section.wrap-main .fill-box select{
+    font-size: 14px;
+    border-color: #F2F2F2;
+    padding: 10px 15px;
+}
+section.wrap-main .fill-box select {
+    background-image: url('../../images/arrow_select.png');
+    background-size: auto;
+    padding-right: 30px;
+}
+
+section.wrap-main .fill-box a.btn-link{
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: inherit;
+    color: white;
+}
+a.btn:hover{
+    background-color: #FF6963!important;
+}
+
+section.wrap-main .fill-box a.btn-link svg{
+    float: left;
+    margin-right: 5px;
+}
+
+.priority{
+    display: flex;
+    min-width: 55px;
+}
+.priority img{
+    margin-right: 5px;
+}
+.priority-low{
+    color: var(--color-low);
+}
+.priority-usually{
+    color: var(--color-usually);
+}
+.priority-high{
+    color: var(--color-high);
+}
+.priority-highest{
+    color: var(--color-highest);
+}
+.priority-urgent{
+    color: var(--color-urgent);
+}
+
+.btn-status{
+    font-size: 12px;
+    padding: 5px 15px;
+    min-width: 75px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.btn-status:hover{
+    color: inherit;
+}
+
+.btn-status-backlog{
+    color: #FF97E3;
+    background: #FFF0FB;
+}
+.btn-status-success{
+    color: #008860;
+    background: #E3F9ED;
+}
+
+.btn-status-confirmation_required{
+    color: #FFA41D;
+    background: #FFF8E4;
+}
+
+.btn-status-completion{
+    color: #677DFF;
+    background: #EEF1FF;
+}
+
+.btn-status-doing{
+    color: #EB7F39;
+    background: #FFEFE4;
+}
+
+.btn-status-working{
+    color: #EB7F39;
+    background: #FFEFE4;
+}
+
+.btn-status-review{
+    color: #FFA41D;
+    background: #FFF8E4 ;
+}
+
+.btn-status-done{
+    color: #008860;
+    background: #E3F9ED ;
+}
+.btn-status-rejected{
+    color: #D85EB5;
+    background: #FFF0FB ;
+}
+.btn-status-unselected{
+    color: #F15151;
+    background: #FFF0FB ;
+}
+.btn-status-close{
+    color: #2B313D;
+    background: #DBDCE0 ;
+}
+
+.btn-status-closed{
+    color: #2B313D;
+    background: #DBDCE0 ;
+}
+
+.btn-status-DBDF07{
+    color: var(--color-status1);
+    background: var(--color-status1_bg);
+}
+.btn-status-00DFD2{
+    color: var(--color-status2);
+    background: var(--color-status2_bg);
+}
+.btn-status-F5129B{
+    color: var(--color-status3);
+    background: var(--color-status3_bg);
+}
+.btn-status-AF143A{
+    color: var(--color-status4);
+    background: var(--color-status4_bg);
+}
+.btn-status-F4A460{
+    color: var(--color-status5);
+    background: var(--color-status5_bg);
+}
+.btn-status-63CDAA{
+    color: var(--color-status6);
+    background: var(--color-status6_bg);
+}
+.btn-status-800080{
+    color: var(--color-status7);
+    background: var(--color-status7_bg);
+}
+.btn-status-7E4A3F{
+    color: var(--color-status8);
+    background: var(--color-status8_bg);
+}
+
+
+.detail-task{
+    position: relative;
+}
+.detail-task .content-detail{
+    font-size: 20px;
+    word-break: break-word;
+}
+.detail-task label.title{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.detail-task .list-info{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.detail-task .list-info .item{
+    margin-bottom: 10px;
+}
+.detail-task .list-info .item span:nth-child(1){
+    padding-right: 30px;
+}
+
+.detail-task .edit-button{
+    position: absolute;
+    right: 35px;
+    top: 30px;
+}
+
+
+/* chart */
+.gantt_chart{
+    background: #F7F7F7;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.gantt_chart .head{
+    border-bottom: 1px #d8d9db solid;
+}
+.gantt_chart .head .title{
+    height: 78px;
+    float: left;
+    width: 188px;
+    vertical-align: initial;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.gantt_chart .head .day{
+    /*display: inline-flex;*/
+    display: -webkit-box;
+}
+.gantt_chart .head .day .item{
+    width: 34px;
+}
+.gantt_chart .head .day .item .text{
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px #d8d9db solid;
+    font-size: 12px;
+}
+.gantt_chart .head .day .item .text:nth-child(2){
+    border-bottom: 0px #d8d9db solid;
+}
+
+.gantt_chart .list-member{
+    background: #FCFCFC;
+}
+.gantt_chart .list-member .member{
+    border-bottom: 1px #d8d9db solid;
+    border-right: 1px #DFE0E2 solid;
+}
+.gantt_chart .list-member .member .name{
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    height: auto;
+    min-height: 40px;
+    float: left;
+    width: 188px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    border-right: 1px #DFE0E2 solid;
+    margin-right: -1px;
+}
+.gantt_chart .list-member .member .list-task{
+    display: grid;
+    /*border-right: 1px #DFE0E2 solid;*/
+}
+.gantt_chart .list-member .member .list-task .task{
+    display: inline-flex;
+    border-bottom: 1px #DFE0E2 solid;
+    position: relative;
+}
+.gantt_chart .list-member .member .list-task .task .item:first-child{border-left: 1px #DFE0E2 solid;}
+.gantt_chart .list-member .member .list-task .task:last-child{
+    border-bottom: 0px #DFE0E2 solid;
+}
+.gantt_chart .list-member .member .list-task .task .item{
+    border-right: 1px #DFE0E2 solid;
+    height: 100%;
+    width: 34px;
+    margin-left: 0px;
+    display: grid;
+    align-items: center;
+}
+.gantt_chart .list-member .member .list-task .task .detail-task{
+    background: #E7342D;
+    border: 1px #E7342D solid;
+    border-radius: 4px;
+    height: 35px;
+    margin-top: 2px;
+    line-height: 35px;
+    padding-left:32px;
+    overflow: hidden;
+}
+
+.gantt_chart .list-member .member .list-task .task .hide-name{
+    padding-left:11px;
+}
+
+.gantt_chart .list-member .member .list-task .task .detail-task p{
+    background: white;
+    color: black;
+    padding: 5px 0px 7px 5px;
+    margin-bottom: 0px;
+    border-radius: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gantt_chart .list-member .member .list-task .task .high-task{
+    background: var(--color-high);
+    border: 1px var(--color-high) solid;
+}
+.gantt_chart .list-member .member .list-task .task .usually-task{
+    background: var(--color-usually);
+    border: 1px var(--color-usually) solid;
+}
+.gantt_chart .list-member .member .list-task .task .highest-task{
+    background: var(--color-highest);
+    border: 1px var(--color-highest) solid;
+}
+.gantt_chart .list-member .member .list-task .task .low-task{
+    background: var(--color-low);
+    border: 1px var(--color-low) solid;
+}
+
+.gantt_chart .list-member .member .list-task .task .unselected-task{
+    background: var(--color-unselected);
+    border: 1px var(--color-unselected) solid;
+}
+.gantt_chart .list-member .member .list-task .task .backlog-task{
+    background: var(--color-backlog);
+    border: 1px var(--color-backlog) solid;
+}
+.gantt_chart .list-member .member .list-task .task .working-task{
+    background: var(--color-working);
+    border: 1px var(--color-working) solid;
+}
+.gantt_chart .list-member .member .list-task .task .done-task{
+    background: var(--color-done);
+    border: 1px var(--color-done) solid;
+}
+.gantt_chart .list-member .member .list-task .task .completion-task{
+    background: var(--color-completion);
+    border: 1px var(--color-completion) solid;
+}
+.gantt_chart .list-member .member .list-task .task .confirmation_required-task{
+    background: var(--color-confirmation-required);
+    border: 1px var(--color-confirmation-required) solid;
+}
+.gantt_chart .list-member .member .list-task .task .close-task{
+    background: var(--color-close);
+    border: 1px var(--color-close) solid;
+}
+.gantt_chart .list-member .member .list-task .task .ct-DBDF07-task{
+    background: var(--color-status1);
+    border: 1px var(--color-status1) solid;
+}
+.gantt_chart .list-member .member .list-task .task .ct-00DFD2-task{
+    background: var(--color-status2);
+    border: 1px var(--color-status2) solid;
+}
+.gantt_chart .list-member .member .list-task .task .ct-F5129B-task{
+    background: var(--color-status3);
+    border: 1px var(--color-status3) solid;
+}
+.gantt_chart .list-member .member .list-task .task .ct-AF143A-task{
+    background: var(--color-status4);
+    border: 1px var(--color-status4) solid;
+}
+.gantt_chart .list-member .member .list-task .task .ct-F4A460-task{
+    background: var(--color-status5);
+    border: 1px var(--color-status5) solid;
+}
+.gantt_chart .list-member .member .list-task .task .ct-63CDAA-task{
+    background: var(--color-status6);
+    border: 1px var(--color-status6) solid;
+}
+.gantt_chart .list-member .member .list-task .task .ct-800080-task{
+    background: var(--color-status7);
+    border: 1px var(--color-status7) solid;
+}
+.gantt_chart .list-member .member .list-task .task .ct-7E4A3F-task{
+    background: var(--color-status8);
+    border: 1px var(--color-status8) solid;
+}
+.status-project{}
+.status-project .title{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.status-project .title-right{
+    padding-right: 156px;
+}
+.status-project .list-status{}
+.status-project .list-status .form-group{
+    margin-bottom: 3px;
+}
+.status-project .list-status-order .form-group label{
+    display: none;
+}
+.status-project .list-status-order .form-group{
+    margin-bottom: 3px;
+}
+.status-project .list-status-order .form-group.form-input input[type="number"]{
+    height: 30px;
+    font-size: 14px;
+    text-align: right;
+}
+.row-status .status-first input{display: none;}
+.row-status .status-first .form-group label{
+    position: relative;
+    font-size: 12px;
+    font-weight: var(--font-bold-700);
+    margin-left: 45px;
+    cursor: inherit;
+}
+.status-project .list-status-order .group-order{}
+.status-project .list-status-order .group-order .hide{
+    width: 26px;
+    height: 26px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.status-project .status-list{
+    margin-top: 20px;
+}
+.status-project .status-list .form-group.form-input label{
+    display: none;
+}
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+    background: #a02e2e;
+    color: white;
+}
+.value-exits{
+    box-shadow: 0px 0px 4px var(--color-red);
+}
+
+.search-kanban .form-group,.search-kanban .form-button button{
+    margin-bottom: 0px;
+}

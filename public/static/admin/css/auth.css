@@ -1,0 +1,124 @@
+@import "./main.css";
+@import "./form.css";
+
+body.no-sidebar{
+    background: #E3E3E3;
+}
+body.no-sidebar .main{
+    margin-top: 150px;
+}
+
+.form-login{
+    margin: 0 auto;
+}
+
+.form-login .wrap-form .form-control {
+    height: 60px;
+    border: none;
+}
+.form-login .wrap-form .form-group{
+    margin-bottom: 10px;
+}
+.form-login .wrap-form .form-group label.title-input{
+    color: var(--color-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.input-pass {
+    position: relative;
+}
+.input-pass input {
+    padding-right: 35px;
+}
+.input-pass span.eyes {
+    position: absolute;
+    right: 15px;
+    top: 26px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.form-login .wrap-form .title-page{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: var(--color-text);
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+}
+
+.form-login input::-webkit-input-placeholder { /* Edge */
+    opacity: .15;
+}
+
+.form-login input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    opacity: .15;
+}
+
+.form-login input::placeholder {
+    opacity: .15;
+    line-height: 45px;
+}
+
+.form-login .wrap-form .btn-submit {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    margin-top: 20px;
+    line-height: 45px;
+}
+
+.btn-color-red{
+    background: var(--color-red);
+    color: white
+}
+
+.btn-color-red:hover{
+    background: var(--color-red);
+    background-color: var(--color-red)!important;
+    color: white!important
+}
+
+.form-login .wrap-form a.click{
+    color: #0066FF;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 20px;
+}
+.form-login .wrap-form p.click{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 20px;
+    color: #333333;
+}
+
+.form-success{}
+.form-success .wrap-form h2.title-page{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+.form-success .wrap-form p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.wrap-user-choose{
+    background: #F2F2F2;
+    padding-top: 150px;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}

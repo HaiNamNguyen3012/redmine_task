@@ -1,0 +1,7 @@
+{
+    "Page": true,
+    "Admin": true,
+    "User": true,
+    "Manager": true,
+    "Api": true
+}
