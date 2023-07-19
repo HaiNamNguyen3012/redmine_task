@@ -9,13 +9,7 @@
                 <div class="col-md-12">
                     <div class="box-370 form-login">
                         <form class="wrap-form" id="form-login" method="post" action="">
-
-
-
                             @csrf
-                            <div class="text-center">
-                                <img class="img-fluid" src="{{ asset('/static/user/images/login-text.png') }}">
-                            </div>
                             <div class="title-page">
                                 Đăng nhập
                             </div>

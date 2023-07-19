@@ -13,7 +13,7 @@ class RegisterRequest extends FormRequest
     public function rules()
     {
         return [
-            "email" => 'required|email|max:64|unique:users',
+            "email" => 'required|email|max:64',
             "password" => "required|string|min:8|max:64",
             "password_confirmation" => "required|min:8|max:64|same:password",
         ];
@@ -42,7 +42,7 @@ class RegisterRequest extends FormRequest
     {
         return [
             //"password.confirmed" => "パスワードが一致しません",
-            'password_confirmation.same' => 'Mật khẩu không phù hợp',
+            'password_confirmation.same' => 'Mật khẩu lặp lại không đúng',
             'term_of_use.required' => 'Hãy kiểm tra',
         ];
     }

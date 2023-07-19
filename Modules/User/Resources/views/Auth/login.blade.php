@@ -9,10 +9,7 @@
                 <div class="col-md-12">
                     <div class="box-370 form-login">
                         <form class="wrap-form" id="form-login" method="post" action="">
-
-
-
-                            @csrf
+                            {{ csrf_field() }}
                             <div class="title-page">
                                 Đăng nhập
                             </div>

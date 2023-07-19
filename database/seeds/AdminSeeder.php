@@ -12,7 +12,7 @@ class AdminSeeder extends Seeder
     public function run()
     {
         $data = [
-            ["name" => "NaoyaHanai", "is_active" => 1, "email" => "naoyahanai@techasia.biz", "password" => Hash::make('hanai555')],
+            ["name" => "Hiep", "is_active" => 1, "email" => "manhhiep91@gmail.com", "password" => Hash::make('12345678')],
         ];
         DB::table("admins")->insert($data);
     }
