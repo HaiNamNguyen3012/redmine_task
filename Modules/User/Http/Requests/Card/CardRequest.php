@@ -75,12 +75,12 @@ class CardRequest extends FormRequest
         }
 
         $mess = [
-            'agree.required' => 'チェックしてください',
-            'year.min' => '過去の年月は入力できません',
+            'agree.required' => 'Hãy kiểm tra',
+            'year.min' => 'Những năm trước không thể được nhập',
         ];
 
         if (!$flag) {
-            $mess['month.min'] = "過去の年月は入力できません";
+            $mess['month.min'] = "Những năm trước không thể được nhập";
         }
 
         return $mess;

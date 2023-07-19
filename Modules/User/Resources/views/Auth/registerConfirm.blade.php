@@ -19,7 +19,7 @@
                                 Tài khoản của bạn đã được xác minh qua email
                             </p>
                             <div  class="form-group">
-                                <a href="{{ route('user.login.index') }}" class="btn btn-color-red btn-submit"> ログイン画面へ </a>
+                                <a href="{{ route('user.login.index') }}" class="btn btn-color-red btn-submit"> Chuyển đến màn hình đăng nhập </a>
                             </div>
 
                         </form>

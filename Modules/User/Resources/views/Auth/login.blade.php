@@ -13,9 +13,6 @@
 
 
                             @csrf
-                            <div class="text-center">
-                                <img class="img-fluid" src="{{ asset('/static/user/images/login-text.png') }}">
-                            </div>
                             <div class="title-page">
                                 Đăng nhập
                             </div>

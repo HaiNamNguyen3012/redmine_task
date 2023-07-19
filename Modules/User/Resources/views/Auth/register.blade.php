@@ -10,9 +10,6 @@
                     <div class="box-370 form-login">
                         <form class="wrap-form" method="post" action="" id="form-login">
                             @csrf
-                            <div class="text-center">
-                                <img class="img-fluid" src="{{ asset('/static/user/images/register-text.png') }}">
-                            </div>
                             <div class="title-page">
                                 Tạo tài khoản mới
                             </div>

@@ -14,7 +14,7 @@ class PlanSeeder extends Seeder
         if (in_array(env('ENVIRONMENT_STRIPE'), ["local", "development"])) {
             $data = [
                 [
-                    "name" => "フリープラン",
+                    "name" => "Gói miễn phí",
                     "price" => 0,
                     "project_quantity" => "1",
                     "payment_service_product_id" => "",
@@ -23,7 +23,7 @@ class PlanSeeder extends Seeder
                     'updated_at' => \Carbon\Carbon::now()
                 ],
                 [
-                    "name" => "スタンダートプラン",
+                    "name" => "Kế hoạch tiêu chuẩn",
                     "price" => 3000,
                     "project_quantity" => "999999999",
                     "payment_service_product_id" => "price_1McJEYCFue9VH2D91i4FXJ21",
@@ -37,7 +37,7 @@ class PlanSeeder extends Seeder
         if (env('ENVIRONMENT_STRIPE') == 'production') {
             $data = [
                 [
-                    "name" => "フリープラン",
+                    "name" => "Gói miễn phí",
                     "price" => 0,
                     "project_quantity" => "1",
                     "payment_service_product_id" => "",
@@ -46,7 +46,7 @@ class PlanSeeder extends Seeder
                     'updated_at' => \Carbon\Carbon::now()
                 ],
                 [
-                    "name" => "スタンダートプラン",
+                    "name" => "Kế hoạch tiêu chuẩn",
                     "price" => 3000,
                     "project_quantity" => "999999999",
                     "payment_service_product_id" => "price_1McQIwCFue9VH2D9wecw72og",

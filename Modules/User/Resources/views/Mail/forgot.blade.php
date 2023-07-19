@@ -13,11 +13,3 @@
 <p>*Nếu bạn không nhận ra email này, vui lòng liên hệ với chúng tôi theo thông tin liên hệ sau.</p>
 
 <p>*Địa chỉ email này chỉ dùng để gửi. Xin lưu ý rằng chúng tôi sẽ không thể trả lời ngay cả khi bạn trả lời.</p>
-
-
-
-<p>[Người điều hành Ronsaku]</p>
-
-<p>Công ty TNHH REGENESIS</p>
-
-<p>Agora Oimachi 3F, 1-6-3 Oi, Shinagawa-ku, Tokyo</p>
