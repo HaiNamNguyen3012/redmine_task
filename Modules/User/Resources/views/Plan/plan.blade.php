@@ -28,12 +28,12 @@
                                         <p class="title">tháng tiếp theo</p>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-6">
-                                        <p class="amount">¥{{ $data["plan_price"]["next_month"] }}</p>
+                                        <p class="amount">vnd{{ $data["plan_price"]["next_month"] }}</p>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6 col-6">
-                                        <p class="title">消費税</p>
+                                        <p class="title">thuế bán hàng</p>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-6">
                                         <p class="amount">¥{{ $data["plan_price"]["vat"] }}</p>

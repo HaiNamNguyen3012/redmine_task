@@ -12,7 +12,7 @@
                 <form class="" method="get" id="form">
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            @include('form.input.month', ["title" =>  "月", "name" => "start_date", "place" => "yyyy/mm", "value" => "" ,"class" => 'monthpicker'])
+                            @include('form.input.month', ["title" =>  "ngày", "name" => "start_date", "place" => "yyyy/mm", "value" => "" ,"class" => 'monthpicker'])
                         </div>
                         <div class="col-md-4 col-sm-4">
                             @include('form.select.select', ["title" =>  "hiển thị", "name" => "user_id", "place" => "", $option_arr = [], "value" => ""])

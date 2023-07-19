@@ -39,7 +39,7 @@
                         </li>
                     </ul>
                     <ul>
-                        <li>オーナー:</li>
+                        <li>Người sở hữu:</li>
                         <li>
                             @if(!empty($data["detail"]->project_permission_list))
                                 @foreach($data["detail"]->project_permission_list as $row)

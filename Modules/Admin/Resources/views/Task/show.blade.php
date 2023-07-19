@@ -25,7 +25,7 @@
                                 <span class="font-bold">{{ @config("sys_common.task_category")[$data['detail']->category_name] ?? '' }}</span>
                             </div>
                             <div class="item">
-                                <span>giám đốc:  </span>
+                                <span>Người phụ trách:  </span>
                                 <span class="font-bold">{{ !empty($data['detail']->user) ? \App\Helpers\Helpers::renderInfoUser(@$data['detail']->user) : (!empty($data['detail']->userBackup) ? \App\Helpers\Helpers::renderInfoUser(@$data['detail']->userBackup) : "") }}</span>
                             </div>
                             <div class="item">
@@ -33,7 +33,7 @@
                                 <span class="font-bold">{{ $data['detail']->version }}</span>
                             </div>
                             <div class="item">
-                                <span>ngày bắt đầu :   </span>
+                                <span>Ngày bắt đầu :   </span>
                                 <span class="font-bold">{{ $data['detail']->start_date }}</span>
                             </div>
                             <div class="item">

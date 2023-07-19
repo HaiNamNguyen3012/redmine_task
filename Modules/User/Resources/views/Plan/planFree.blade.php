@@ -19,7 +19,7 @@
                                     <button type="button" id="payment_cart" class="btn btn-red btn-submit">thay đổi</button>
                                     <div class="clear"></div>
                                     <a href="{{ route("user.plan.index") }}">
-                                        @include('form.button.back', ["title" => "戻る", "type" => "button", "id" => ""])
+                                        @include('form.button.back', ["title" => "Trở lại", "type" => "button", "id" => ""])
                                     </a>
                                 </div>
                             </div>

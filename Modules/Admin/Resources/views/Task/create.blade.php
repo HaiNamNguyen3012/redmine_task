@@ -38,7 +38,7 @@
 
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            @include('form.select.select', ["title" =>  "Giám đốc", "name" => "user_id", "place" => "Giám đốc", $option_arr = $project_user, "value" => ""])
+                            @include('form.select.select', ["title" =>  "Người phụ trách", "name" => "user_id", "place" => "Người phụ trách", $option_arr = $project_user, "value" => ""])
                         </div>
                         <div class="col-md-6 col-sm-6">
                             @include('form.select.select_custom_background_status', ["name" => "status", "title" => "Trạng thái", "place" => "", "hide_place" => true, $option_arr = $arr_project_status, "value" => "unselected"])

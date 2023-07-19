@@ -31,7 +31,7 @@
                                     <div class="form-group form-select">
                                         <select class="form-select" name="user_id"
                                                 aria-label="Default select example">
-                                            <option value="">メンバー</option>
+                                            <option value="">Thành viên</option>
                                             @foreach($project_user_all as $k=>$value)
                                                 <option @if(request('user_id') && request('user_id') == $k) selected
                                                         @endif value="{{ $k }}">{{ $value }}</option>
@@ -42,7 +42,7 @@
                                 <div class="col-md-3 col-sm-4">
                                     <div class="form-group form-select">
                                         <select class="form-select" name="category_name">
-                                            <option value="">カテゴリー</option>
+                                            <option value="">Loại</option>
                                             @foreach($category_task as $k=>$value)
                                                 <option
                                                     @if(request('category_name') && request('category_name') == $k) selected
@@ -52,7 +52,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-4">
-                                    @include('form.button.search', ["title" => "絞り込む", "type" => "submit", "id" => ""])
+                                    @include('form.button.search', ["title" => "Lọc", "type" => "submit", "id" => ""])
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                     @if($row["is_data"])
                         <div class="list-task" data-status="{{ $row['id'] }}">
                             <div class="head">
-                                {{ ($row["key"] == "unselected") ? "未選択・その他" : $row["title"] }}
+                                {{ ($row["key"] == "unselected") ? "Không được chọn/Khác" : $row["title"] }}
                                 <span>{{ count($row["task_list"]) }}</span>
                             </div>
                             <div class="draggingContainer">

@@ -49,7 +49,7 @@
             </div>
 
             <div class="title-table-form">
-                <p><span class="font-bold">参加しているプロジェクト</span></p>
+                <p><span class="font-bold">Dự án tham gia</span></p>
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -57,9 +57,9 @@
                         <table class="table wrap-table table-radius table-responsive">
                             <thead>
                             <tr>
-                                <th width="100">選択中</th>
-                                <th width="600">プロジェクト名</th>
-                                <th>作成日</th>
+                                <th width="100">Lựa chọn</th>
+                                <th width="600">Tên dự án</th>
+                                <th>Ngày tạo ra</th>
                                 <th width="100"></th>
                             </tr>
                             </thead>

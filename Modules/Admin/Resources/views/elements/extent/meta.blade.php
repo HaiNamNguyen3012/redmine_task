@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link href="{{ asset('/static/images/favicon.ico') }}" rel="icon">
 <link href="{{ asset('/static/images/apple-touch-icon.png') }}" rel="apple-touch-icon">
-<title>シンプルガント</title>
+<title>Gantt đơn giản</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap" rel="stylesheet">

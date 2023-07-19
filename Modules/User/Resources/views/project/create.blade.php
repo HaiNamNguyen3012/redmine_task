@@ -122,9 +122,9 @@
                 </div>
 
 
-                @include('form.button.plus', ["title" => "新規作成", "type" => "submit", "id" => "create-btn"])
+                @include('form.button.plus', ["title" => "Tạo mới", "type" => "submit", "id" => "create-btn"])
                 <a href="{{ route("user.project.index") }}">
-                    @include('form.button.back', ["title" => "戻る", "type" => "button", "id" => ""])
+                    @include('form.button.back', ["title" => "Trở lại", "type" => "button", "id" => ""])
                 </a>
 
             </form>

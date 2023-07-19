@@ -18,7 +18,7 @@
                 <form class="" method="get" id="form">
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            @include('form.input.month', ["title" =>  "月", "name" => "start_date", "place" => "yyyy/mm", "value" => (\request()->has("start_date") ? \request()->get("start_date") : date("Y/m")), "class" => 'monthpicker', 'submit' => true ])
+                            @include('form.input.month', ["title" =>  "ngày", "name" => "start_date", "place" => "yyyy/mm", "value" => (\request()->has("start_date") ? \request()->get("start_date") : date("Y/m")), "class" => 'monthpicker', 'submit' => true ])
                         </div>
                         <div class="col-md-4 col-sm-4">
                             @include('form.select.select', ["title" =>  "hiển thị", "name" => "display", "place" => "", $option_arr = config("sys_common.find_option"), "value" => (\request()->has("display") ? \request()->get("display") : "person"), 'submit' => true, 'default' => false ])

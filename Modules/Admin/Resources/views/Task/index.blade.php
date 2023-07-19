@@ -65,7 +65,7 @@
                                     <th>Tên nhiệm vụ</th>
                                     <th>Loại</th>
                                     <th>Sự ưu tiên</th>
-                                    <th>Giám đốc</th>
+                                    <th>Người phụ trách</th>
                                     <th>Trạng thái</th>
 
                                 </tr>

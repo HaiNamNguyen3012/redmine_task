@@ -12,7 +12,7 @@
                 @endif
                 <div class="row">
                     <div class="col-md-12">
-                        <label class="title">chi tiết</label>
+                        <label class="title">Chi tiết</label>
                         <div class="content-detail">
                             {!! $data['detail']->details !!}
                         </div>

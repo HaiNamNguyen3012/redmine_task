@@ -9,7 +9,7 @@
     <p>*Địa chỉ email này chỉ dùng để gửi. Xin lưu ý rằng chúng tôi sẽ không thể trả lời ngay cả khi bạn trả lời.</p>
 
     <br>
-    <p>【シンプルガント 運営元】</p>
+{{--    <p>【シンプルガント 運営元】</p>--}}
     <p>Công ty TNHH REGENESIS</p>
     <p>Agora Oimachi 3F, 1-6-3 Oi, Shinagawa-ku, Tokyo</p>
 @endif
@@ -29,7 +29,7 @@
     <p>*Địa chỉ email này chỉ dùng để gửi. Xin lưu ý rằng chúng tôi sẽ không thể trả lời ngay cả khi bạn trả lời.</p>
     <br>
 
-    <p>【シンプルガント 運営元】</p>
+{{--    <p>【シンプルガント 運営元】</p>--}}
     <p>Công ty TNHH REGENESIS</p>
     <p>Agora Oimachi 3F, 1-6-3 Oi, Shinagawa-ku, Tokyo</p>
 @endif

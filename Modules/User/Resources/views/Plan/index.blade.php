@@ -7,7 +7,7 @@
 
                 @if(!$data["plan_bought"]["is_expire"] && !empty($data["plan_bought"]["time"]))
                     <div class="text-center plan-title-use">
-                        <label class="font-bold font-20">{{ $data["plan_bought"]["time"] }}まで有料プランを利用出来ます</label>
+                        <label class="font-bold font-20">{{ $data["plan_bought"]["time"] }}Gói trả phí có thể được sử dụng lên đến</label>
                     </div>
                 @endif
                 <div class="row">
@@ -18,7 +18,7 @@
                                     <img class="img-fluid" src="{{ asset('/static/images/plan_'.($k + 1).'.png') }}">
                                 </div>
                                 <h2 class="title">{{ $row->name }}</h2>
-                                <h3 class="price">{{ ($row->price > 0) ? "¥".$row->price."(Không bao gồm thuế)" : "Miễn phí" }}</h3>
+                                <h3 class="price">{{ ($row->price > 0) ? "vnd".$row->price."(Không bao gồm thuế)" : "Miễn phí" }}</h3>
                                 <ul>
                                     <li>{{ ($row->price == 0) ? "Tối đa 1 dự án" : "Không giới hạn dự án" }}</li>
                                 </ul>

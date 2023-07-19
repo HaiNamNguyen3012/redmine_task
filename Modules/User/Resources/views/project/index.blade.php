@@ -29,7 +29,7 @@
                             <tr>
                                 <th width="100">lựa chọn</th>
                                 <th width="600">tên dự án</th>
-                                <th>作成日</th>
+                                <th>Ngày tạo ra</th>
                                 <th width="100"></th>
                             </tr>
                             </thead>
@@ -90,7 +90,7 @@
                             <tr>
                                 <th width="100">lựa chọn</th>
                                 <th width="600">Tên dự án</th>
-                                <th>作成日</th>
+                                <th>Ngày tham gia</th>
                                 <th width="100"></th>
                             </tr>
                             </thead>

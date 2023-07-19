@@ -173,7 +173,7 @@
 
                 <div id="wrap-form" class="wrap-form padding30">
                     <div class="form-group mb-3 permission-list-title" style="display: none;">
-                        <label for="">メンバー</label>
+                        <label for="">Thành viên</label>
                     </div>
                     <div class="form-group permission-list">
                         {{--html--}}
@@ -183,10 +183,10 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            @include('form.input.text', ["title" =>  "メールアドレス", "name" => "per_email", "place" => "", "value" => "", "custom_error" => true])
+                            @include('form.input.text', ["title" =>  "Email", "name" => "per_email", "place" => "", "value" => "", "custom_error" => true])
                         </div>
                         <div class="col-md-6 col-sm-6">
-                            @include('form.select.select', ["title" =>  "権限", "name" => "permission_select", "place" => "", $option_arr = $data["permisstion_pluck"], "value" => "", "custom_error" => true])
+                            @include('form.select.select', ["title" =>  "Thẩm quyền", "name" => "permission_select", "place" => "", $option_arr = $data["permisstion_pluck"], "value" => "", "custom_error" => true])
                         </div>
                     </div>
                     <div class="plus-empty-bottom text-right">

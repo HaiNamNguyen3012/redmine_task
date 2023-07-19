@@ -2,7 +2,7 @@
 @section('content')
     <div class="banner-page banner-page-contact">
         <div class="box-content-banner-index">
-            <h1>お問い合わせ</h1>
+            <h1>Liên hệ</h1>
         </div>
         <img class="img-fluid" src="{{ asset('static/images/banner_contact.png') }}"/>
     </div>
