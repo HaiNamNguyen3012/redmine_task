@@ -36,7 +36,7 @@ class ForgotPassRequest extends FormRequest
     public function messages()
     {
         return [
-            'email.exists' => 'メールアドレスは登録されていません',
+            'email.exists' => 'Địa chỉ email chưa được đăng ký',
         ];
     }
 }

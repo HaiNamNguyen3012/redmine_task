@@ -33,7 +33,7 @@ class ContactUser extends Mailable
     public function build()
     {
         $data = $this->view('page::Mail.contactUser', ['data' => $this->data]);
-        $data = $data->subject('【シンプルガント】お問い合わせの受付が完了しました');
+        $data = $data->subject('[Simple Gantt] Yêu cầu của bạn đã được nhận.');
         return $data;
     }
 }

@@ -38,10 +38,10 @@ class EmailVerify extends Mailable
     {
         $data = $this->view('user::Mail.verify_email', ['link' => $this->link, 'type' => $this->type, 'user' => $this->user]);
         if ($this->type == "register") {
-            $data = $data->subject('【シンプルガント】アカウント認証のお願い');
+            $data = $data->subject('[Simple Gantt] Yêu cầu xác minh tài khoản');
         }
         if ($this->type == "re_verify") {
-            $data = $data->subject('【シンプルガント】アカウント認証のお願い');
+            $data = $data->subject('[Simple Gantt] Yêu cầu xác minh tài khoản');
         }
         return $data;
     }

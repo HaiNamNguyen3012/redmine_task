@@ -35,7 +35,7 @@ class UserEmailVerify extends Mailable
     public function build()
     {
         $data = $this->view('user::Mail.verify_email', ['link' => $this->link,'user' => $this->user]);
-        $data = $data->subject('【ロンサク】アカウント認証のお願い');
+        $data = $data->subject('[Lonsaku] Yêu cầu xác minh tài khoản');
         return $data;
     }
 }

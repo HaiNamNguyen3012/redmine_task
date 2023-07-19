@@ -33,7 +33,7 @@ class ContactAdmin extends Mailable
     public function build()
     {
         $data = $this->view('page::Mail.contactAdmin', ['data' => $this->data]);
-        $data = $data->subject('【シンプルガント】お問い合わせ');
+        $data = $data->subject('[Simple Gantt] Liên hệ');
         return $data;
     }
 }

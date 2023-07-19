@@ -43,8 +43,8 @@ class RegisterRequest extends FormRequest
     {
         return [
             //"password.confirmed" => "パスワードが一致しません",
-            'password_confirmation.same' => 'パスワードが一致しません',
-            'term_of_use.required' => 'チェックしてください',
+            'password_confirmation.same' => 'Mật khẩu không phù hợp',
+            'term_of_use.required' => 'Hãy kiểm tra',
         ];
     }
 }

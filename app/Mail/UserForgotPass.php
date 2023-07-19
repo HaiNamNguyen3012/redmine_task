@@ -34,7 +34,7 @@ class UserForgotPass extends Mailable
     public function build()
     {
         $data = $this->view('user::Mail.forgot', ['link' => $this->link, 'user' => $this->user]);
-        $data = $data->subject('【ロンサク】パスワード再設定手続き　');
+        $data = $data->subject('[Lonsaku] Thủ tục đặt lại mật khẩu　');
         return $data;
     }
 }

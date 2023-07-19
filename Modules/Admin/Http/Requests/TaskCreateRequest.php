@@ -51,11 +51,11 @@ class TaskCreateRequest extends FormRequest
     {
         return [
             //"start_date.before"=>"開始日を終了日より前に設定してください",
-            "start_date.before_or_equal"=>"開始日を終了日より前に設定してください",
+            "start_date.before_or_equal"=>"Vui lòng đặt ngày bắt đầu trước ngày kết thúc",
             //"end_date.after"=>"終了日を開始日より後に設定してください",
-            "end_date.after_or_equal"=>"終了日を開始日より後に設定してください",
+            "end_date.after_or_equal"=>"Vui lòng đặt ngày kết thúc sau ngày bắt đầu",
             //"deadline.after"=>"締切日を終了日より後に設定してください",
-            "deadline.after_or_equal"=>"締切日を終了日より後に設定してください",
+            "deadline.after_or_equal"=>"Vui lòng đặt ngày hết hạn sau ngày kết thúc",
         ];
     }
 }
